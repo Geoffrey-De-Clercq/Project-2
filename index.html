@@ -19,29 +19,19 @@
 
   <body>
     <div class="navbar sticky">
-      <div>
-        <!-- Link naar freecodecamp op youtube, buiten W3schools of bootstrap ook handige filmpjes om te bekijken. -->
-        <a href="https://www.youtube.com/@freecodecamp" target="_blank">
-          <img
-            class="logo"
-            src="images/Logo/Logo.png"
-            alt="logo"
-            width="51"
-            height="50"
-        /></a>
-      </div>
-      <div><a class="logo_text" href="index.html">G.DC</a></div>
-
       <ul>
         <li>
-          <a class="active" href="index.html"
-            ><i class="fa-solid fa-house-chimney"></i>Home</a
-          >
+          <a href="https://www.youtube.com/@freecodecamp" target="_blank">
+            <img
+              class="logo"
+              src="images/Logo/Logo.png"
+              alt="logo"
+              width="51"
+              height="50"
+          /></a>
         </li>
-        <li>
-          <a href="overmij.html"
-            ><i class="fa-solid fa-user"></i>Over mij</a
-          >
+        <li class="navtext">
+          <a style="font-size: 21px" href="index.html">Geoffrey De Clercq</a>
         </li>
         <li>
           <a href="cv.html"
@@ -50,7 +40,7 @@
         </li>
         <li>
           <a href="ervaringen.html"
-            ><i class="fa-solid fa-graduation-cap"></i>Ervaring</a
+            ><i class="fa-solid fa-graduation-cap"></i>Curriculum Vitae</a
           >
         </li>
         <li>
@@ -59,7 +49,11 @@
           >
         </li>
         <li>
-          <a href="hobby.html"><i class="fa-solid fa-puzzle-piece"></i>Hobby</a>
+          <a href="hobby.html"
+            ><i class="fa-solid fa-puzzle-piece"></i>Hobby<i
+              class="iafter fa-solid fa-circle-chevron-down"
+            ></i
+          ></a>
           <div class="navbar-submenu">
             <ul>
               <li>
@@ -91,11 +85,68 @@
     </header>
 
     <main>
-      
+      <div class="container-fluid">
+        <div class="container"><h1>Welkom op mijn webpagina!</h1></div>
+
+        <div class="container">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+            nisi neque dolores amet excepturi nulla sequi. Ipsam porro
+            voluptates totam recusandae atque enim nisi aspernatur voluptatibus
+            magnam odio. Ab, ut! Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Doloremque magnam iusto, dolores ullam corporis
+            rerum quisquam praesentium nulla, perferendis quasi, repudiandae
+            exercitationem? Doloremque fugiat modi incidunt ratione dolorem
+            nostrum deleniti!
+          </p>
+        </div>
+
+        <div class="container">
+          <button>Custom1</button><button>Custom2</button>
+        </div>
+      </div>
     </main>
 
-    <footer><p>Copyright &copy; 2023, Geoffrey De Clercq</p></footer>
+    <footer class="container-fluid containerfooter">
+          <div class="row">
+            <div class="col-md footer1">
+              <p style="display: flex;">Copyright &copy; 2023, Geoffrey De Clercq</p></div>
+        </div>
+     
+        <div class="col-md footer2">
+          <ul>
+            <li>
+              <a href="https://be.linkedin.com" target="_blank"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com" target="_blank"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com" target="_blank"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        </div>
+
+        </div>
+
+    </footer>
     <!-- Javascript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
