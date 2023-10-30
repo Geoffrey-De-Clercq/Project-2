@@ -30,8 +30,7 @@ header {
     align-items: center;
     padding: 30px 10%;
     background-color: #0C0C33;
-    list-style: none;
-    
+    list-style: none;  
 }
 
 .logo {
@@ -108,24 +107,20 @@ header {
     display: block;
     position: absolute;
     background: rgb(13, 132, 162);
-    /* zet top-margin op 1; omdat anders je de twee andere pagina's (games & series) niet kan kiezen met cursor om heen te gaan. Ik wist niet meer hoe dit anders op te lossen... */
-    margin-top: 1px;
-    margin-left: -15px;
 }
 
 .navbar ul li:hover .navbar-submenu ul {
     display: block;
-    margin: 5px;
+    margin: 4px;
 }
 
 .navbar ul li:hover .navbar-submenu ul li {
-    width: 150px;
+    width: 150px; 
     padding: 10px;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
     background: transparent;
     border-radius: 0;
-    text-align: left;
 }
 
 .navbar ul li:hover .navbar-submenu ul li:last-child {
@@ -137,82 +132,6 @@ header {
 }
 
 
-
-table.strips {
-    margin: 1em;
-
-}
-
-table.strips td {
-    border:solid 1px #0C0C33;
-    padding: 10px;
-    color: black;
-    border-radius: 10px;
-}
-
-table.strips th {
-    border-radius: 3px;
-    padding: 10px;
-    color:#edf0f1;
-    background-color:rgb(0, 136, 169, 1);
-}
-
-#indexwrapper {
-    display: grid;
-    border: 1px solid black;
-    justify-content: center;
-    grid-template-columns: auto auto;
-}
-
-#indexwrapper > div {
-    margin: 10px;
-    padding: 20px;
-
-}
-
-#index1 {
-    float:left;
-    border: 1px solid black;
-}
-
-#index2 {
-    border: 1px solid black;
-    float:right;
-}
-
-#index3 {
-    list-style: none;
-    justify-content: center;
-    background-color: rgb(0, 136, 169, 1);
-    width: 100%;
-    
-}
-
-
-
-#index3 li {
-    display: flex;
-    background-color: rgb(0, 136, 169, 1);
-    flex-direction: row;
-    
-}
-
-#index3 li a {
-    transition: all 0.3s ease 0s;
-    font-weight: 400;
-    font-size: 16px;
-    color: #edf0f1;
-    text-decoration: none;
-}
-
-#index4 {
-    display: block;
-}
-
-.container {
-    position: relative;
-}
-
 footer {
     display: flex;
     justify-content: center;
@@ -222,6 +141,14 @@ footer {
     font-size: 20px;
 }
 
+@media only screen and (max-width: 600px) 
+{
+    .navbar {
+        visibility: visible;
+        width: 100%
+        
+    }
+}
   
 
 
