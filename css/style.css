@@ -16,10 +16,36 @@ body
     flex-direction: column;
 }
 
-.navtext {
-    color:#FFFFFF;
-    text-decoration-line: underline;
+/* Index pagina */
+.indexbody {
+    background-color: #0C0C33;
 }
+
+.index-container {
+    justify-content: center; 
+}
+
+.container > h1, p button {
+    text-align: center;
+}
+
+#indexColortext {
+    color: #FFFFFF;
+}
+
+
+
+
+/* cards */
+
+.cardfooter {
+    background-color: rgb(0, 136, 169, 1);
+    color: #FFFFFF;
+}
+
+
+
+/* header */
 
 header {
     display: flex;
@@ -28,6 +54,13 @@ header {
     background-color: rgb(0, 136, 169, 1);
     color:#FFFFFF;
     font-size: 18px;
+}
+
+/* Navbar */
+
+.navtext {
+    color:#FFFFFF;
+    text-decoration-line: underline;
 }
 
 .navbar {
@@ -136,6 +169,8 @@ header {
     color: #5cf1ff;
 }
 
+/* Footer */
+
 footer 
 {
     padding: 30px 10%;
@@ -172,8 +207,10 @@ float: right;
 
 .footer2  ul li > a {
     color: #FFFFFF; 
-
 }
+
+/* container Jumbotron/heroes */
+
 
 
 

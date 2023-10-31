@@ -17,8 +17,8 @@
     ></script>
   </head>
 
-  <body>
-    <div class="navbar sticky">
+  <body class="indexbody">
+    <div class="navbar">
       <ul>
         <li>
           <a href="https://www.youtube.com/@freecodecamp" target="_blank">
@@ -33,63 +33,15 @@
         <li class="navtext">
           <a style="font-size: 21px" href="index.html">Geoffrey De Clercq</a>
         </li>
-        <li>
-          <a href="cv.html"
-            ><i class="fa-solid fa-briefcase"></i>Curriculum Vitae</a
-          >
-        </li>
-        <li>
-          <a href="ervaringen.html"
-            ><i class="fa-solid fa-graduation-cap"></i>Curriculum Vitae</a
-          >
-        </li>
-        <li>
-          <a href="interesses.html"
-            ><i class="fa-solid fa-network-wired"></i>Interesses</a
-          >
-        </li>
-        <li>
-          <a href="hobby.html"
-            ><i class="fa-solid fa-puzzle-piece"></i>Hobby<i
-              class="iafter fa-solid fa-circle-chevron-down"
-            ></i
-          ></a>
-          <div class="navbar-submenu">
-            <ul>
-              <li>
-                <a href="games.html"
-                  ><i class="fa-solid fa-gamepad"></i>Games</a
-                >
-              </li>
-              <li>
-                <a href="series.html"
-                  ><i class="fa-solid fa-masks-theater"></i>Series</a
-                >
-              </li>
-            </ul>
-          </div>
-        </li>
-      </ul>
-
-      <ul>
-        <li>
-          <a class="nav_button" href="contact.html"
-            ><i class="fa-solid fa-phone"></i>Contact</a
-          >
-        </li>
       </ul>
     </div>
 
-    <header>
-      <h1>Index</h1>
-    </header>
-
     <main>
       <div class="container-fluid">
-        <div class="container"><h1>Welkom op mijn webpagina!</h1></div>
+        <div class="container index-container"><h1 id="indexColortext">Welkom op mijn webpagina!</h1></div>
 
-        <div class="container">
-          <p>
+        <div class="container" >
+          <p id="indexColortext">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
             nisi neque dolores amet excepturi nulla sequi. Ipsam porro
             voluptates totam recusandae atque enim nisi aspernatur voluptatibus
@@ -102,18 +54,98 @@
         </div>
 
         <div class="container">
-          <button>Custom1</button><button>Custom2</button>
+          <a href="contact.html"><button>Contact</button></a>
         </div>
+        <br>
+      
+        <div class="row">
+          <div class="col-12">
+          </div>
+          <div class="col">
+            <div class="card border-dark">
+              <a href="overmij.html"><img src="images/glasses.jpg" class="card-img-top" alt="bril"></a>
+              <div class="card-body">
+                <h5 class="card-title">Over mij</h5>
+                <p class="card-text">Deze eerste pagina vertelt wat over mijzelf. Bijvoorbeeld: Mijn naam, geboorteplaatst, leeftijd en adres.</p>
+              </div>
+              <div class="card-footer cardfooter">
+                <small class="text-body-secondary">Klik op de afbeelding om naar de pagina 'Over mij' te gaan.</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-dark">
+              <a href="cv.html"><img src="images/CV.jpg" class="card-img-top" alt="CV"></a>
+              <div class="card-body">
+                <h5 class="card-title">Curriculum Vitae</h5>
+                <p class="card-text">Op deze pagina vermeld ik u mijn Curriculum Vitae, waar ik al ervaring heb opgedaan, mijn sterktepunten en mijn zwaktes.</p>
+              </div>
+              <div class="card-footer cardfooter">
+                <small class="text-body-secondary">Klik op de afbeelding om naar de pagina 'Curriculum Vitae' te gaan.</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-dark">
+              <a href="ervaringen.html"><img src="images/ervaring.jpg" class="card-img-top" alt="Ervaring"></a>
+              <div class="card-body">
+                <h5 class="card-title">Ervaring</h5>
+                <p class="card-text">Mijn ervaringen staan hier opgelijst, wat ik heb geleerd uit mijn studies en op werkplekken doorheen mijn leven.</p>
+              </div>
+              <div class="card-footer cardfooter">
+                <small class="text-body-secondary">Klik op de afbeelding om naar de pagina 'Ervaring' te gaan.</small>
+              </div>
+            </div>
+          </div>
       </div>
+
+      <div class="row">
+        <div class="col-12">
+        </div>
+        <div class="col">
+          <div class="card border-dark">
+            <a href="interesses.html"><img src="images/Background.png" class="card-img-top" alt="Coding and glasses"></a>
+            <div class="card-body">
+              <h5 class="card-title">Interesses</h5>
+              <p class="card-text">Mijn interesses die ik boeiend vind. Bijvoorbeeld: De werking van een computer, en het onderhouden ervan.</p>
+            </div>
+            <div class="card-footer cardfooter">
+              <small class="text-body-secondary">Klik op de afbeelding om naar de pagina 'Interesses' te gaan.</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-dark">
+            <a href="hobby.html"><img src="images/RetroBG.jpg" class="card-img-top" alt="Oude computer"></a>
+            <div class="card-body">
+              <h5 class="card-title">Hobbies</h5>
+              <p class="card-text">Als extra onderdeel waarmee ik me graag bezig hou om te onstpannen heb ik op deze pagina aantal items opgelijst.</p>
+            </div>
+            <div class="card-footer cardfooter">
+              <small class="text-body-secondary">Klik op de afbeelding om naar de pagina 'Hobby' te gaan.</small>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+    
+
+
+    <br>
+
+
+
+    </div> <!-- container fluid -->
+
     </main>
 
     <footer class="container-fluid containerfooter">
-          <div class="row">
             <div class="col-md footer1">
-              <p style="display: flex;">Copyright &copy; 2023, Geoffrey De Clercq</p></div>
-        </div>
-     
-        <div class="col-md footer2">
+              <p style="display: flex;">Copyright &copy; 2023, Geoffrey De Clercq</p>
+            </div>
+        
+            <div class="col-md footer2">
           <ul>
             <li>
               <a href="https://be.linkedin.com" target="_blank"
@@ -136,11 +168,7 @@
               ></a>
             </li>
           </ul>
-        </div>
-        </div>
-
-        </div>
-
+      </div> <!-- footer2 -->
     </footer>
     <!-- Javascript -->
     <script
