@@ -51,13 +51,12 @@ body
     margin-bottom: 60px;
 }
 
-.indexColortext > a{
+.indexColortext > a {
     color: #FFFFFF;
     border-color: #5cf1ff;
     border-radius: 50px;
     text-align: center;
     text-decoration: none;
-
 }
 
 
@@ -68,10 +67,17 @@ body
 
 .card {
     margin: 20px 70px 50px 70px;
-    
 }
 
+.card a > img {
+filter: grayscale(100%);
+}
 
+.card a > img:hover {
+    filter: grayscale(0%);
+    transition: all 0.9s ease 0s;
+
+    }
 /* header */
 
 header {
@@ -226,14 +232,14 @@ footer
     margin-left: 20px;
 }
 
-.footer2 > ul {
-    
-}
-
 .footer2  ul li > a {
     color: #FFFFFF; 
 }
 
+.footer2  ul li > a:hover {
+    color: #5cf1ff; 
+    transition: all 0.3 ease 0s;
+}
 
 
 
