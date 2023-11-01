@@ -87,14 +87,15 @@
           <h1>Contact</h1>
         </header>
         <main>
-          
+          <div class="fw-bold container-fluid" style="justify-content: left; text-align: center;">
+          <div>
           <form method="post" action="https://tm-statweb.be/forms.php">
             <div>
               <label for="voornaam">Voornaam:</label><br />
               <input
                 type="text"
                 name="voornaam"
-                id="voornaam"
+                id="voornaam" required
                 placeholder="Voornaam"
               /><br />
 
@@ -102,7 +103,7 @@
               <input
                 type="text"
                 name="familienaam"
-                id="familienaam"
+                id="familienaam" required
                 placeholder="Familienaam"
               /><br />
 
@@ -110,7 +111,7 @@
               <input
                 type="email"
                 name="emailadres"
-                id="emailadres"
+                id="emailadres" required
                 placeholder="abc@gmail.be"
               />
               <br />
@@ -118,15 +119,15 @@
               <textarea
                 name="onderwerp"
                 id="onderwerp"
-                cols="40"
+                cols="80"
                 rows="10"
               ></textarea>
-              <br />
-
-              <input type="submit" value="Versturen" />
+<br>
+              <input class="active nav_button" type="submit" value="Versturen" />
             </div>
           </form>
-
+        </div>
+      </div>
         </main>
         <footer class="container-fluid containerfooter">
           <div class="col-md footer1">

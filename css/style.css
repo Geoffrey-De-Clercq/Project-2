@@ -16,9 +16,6 @@ body
     flex-direction: column;
 }
 
-.container-fluid {
-    
-}
 
 /* Index pagina */
 .indexbody {
@@ -66,7 +63,7 @@ body
 }
 
 .card {
-    margin: 20px 70px 50px 70px;
+    margin: 20px 70px 60px 70px;
 }
 
 .card a > img {
@@ -107,6 +104,7 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .navbar li {
@@ -194,6 +192,60 @@ header {
 
 .navbar ul li:hover .navbar-submenu ul li a:hover {
     color: #5cf1ff;
+}
+
+/* pagina CV */
+h3 {
+    text-decoration: underline;
+}
+
+section > p {
+    text-align: left;
+}
+
+.gallery {
+    width: 900px;
+    display: flex;
+    overflow-x: scroll;
+    border: rgb(0, 136, 169, 1) solid 2px;
+}
+
+.gallery div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
+}
+
+.gallery div img {
+    width: 100%;
+    filter: grayscale(100%);
+    transition: transform 0.5s;
+}
+
+.gallery::-webkit-scrollbar{
+    display: none;
+}
+
+.gallery-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+}
+
+#backBtn, #nextBtn {
+    width: 50px;
+    cursor: pointer;
+    margin: 40px;
+}
+
+.gallery div img:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+    transform: (1.1);
 }
 
 /* Footer */
