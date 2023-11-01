@@ -16,33 +16,60 @@ body
     flex-direction: column;
 }
 
+.container-fluid {
+    
+}
+
 /* Index pagina */
 .indexbody {
     background-color: #0C0C33;
 }
 
 .index-container {
-    justify-content: center; 
+    justify-content: center;
+    margin-top: 10px;
 }
 
-.container > h1, p button {
+.container > h1, p {
     text-align: center;
 }
 
-#indexColortext {
+.card-title, .card-footer {
+    text-align: center;
+}
+
+.indexColortext {
     color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.index1button {
+
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.indexColortext > a{
+    color: #FFFFFF;
+    border-color: #5cf1ff;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+
 }
 
 
-
-
-/* cards */
-
-.cardfooter {
+.footerBGC {
     background-color: rgb(0, 136, 169, 1);
     color: #FFFFFF;
 }
 
+.card {
+    margin: 20px 70px 50px 70px;
+    
+}
 
 
 /* header */
@@ -57,12 +84,6 @@ header {
 }
 
 /* Navbar */
-
-.navtext {
-    color:#FFFFFF;
-    text-decoration-line: underline;
-}
-
 .navbar {
     display: flex;
     justify-content: center;
@@ -87,7 +108,7 @@ header {
     padding: 0 20px;
 }
 
-.navbar li a {
+.navbar li, a {
     transition: all 0.3s ease 0s;
     font-weight: 400;
     font-size: 16px;
@@ -95,7 +116,7 @@ header {
     text-decoration: none;
 }
 
-.navbar li a:hover {
+.navbar li, a:hover {
     color: #5cf1ff;
 }
 
@@ -181,35 +202,37 @@ footer
 }
 
 .containerfooter {
-display: flex;
+    display: block;
+    text-align: center;
+    
 }
 
 .footer1 {
-    margin-left: 100px;
+    display: inline-block;
+    justify-content: center;
 }
 
 .footer2  ul > li {
     border-right: solid 1px #FFFFFF;
-    display: inline-flex;
+    display: inline-block;
+    
 }
 .footer2  ul > li:last-child {
     border: none;
 }
 
 .footer2  i {
-    margin: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .footer2 > ul {
-margin-right: 110px;
-float: right;
+    
 }
 
 .footer2  ul li > a {
     color: #FFFFFF; 
 }
-
-/* container Jumbotron/heroes */
 
 
 
